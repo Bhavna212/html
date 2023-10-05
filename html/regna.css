@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.logo{
+    width: 20%;
+    float: left;
+
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li{
+    list-style: none;
+
+    color: white;
+    padding: 20%;
+    position: relative;
+    display: inline-block;
+}
+.menu ul{
+    text-align: left;
+}
+.menu ul li :hover{
+    display: block;
+}
+.back{
+    background-image: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+.text button{
+    width: 10%;
+    height: 60px;
+    color: white;
+    background: none;
+    align-content: center;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+.text{
+    text-align: center,kj;
+}
